@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Arqué Digital</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
+    <link href="media/logocolorida.png" rel="icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <img class="logo" src="media/logo.svg">
+        <div class="navbar-links">
+            <div class="dot" style="left: 26.225px"></div>
+            <ul>
+                <li to="inicio"><a>Início</a></li>
+                <li to="sobre"><a>Sobre</a></li>
+                <li to="comunidade"><a>O Pilar</a></li>
+                <li to="equipe"><a>Equipe</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="inicio">
+        <div class="content">
+            <h3 class="p">NÓS SOMOS O</h3>
+            <h1 id="title"><span>A</span><span>r</span><span>q</span><span>u</span><span>é</span><span>
+                </span><span>D</span><span>i</span><span>g</span><span>i</span><span>t</span><span>a</span><span>l</span>
+            </h1>
+            <h3 id="about"></h3>
+        </div>
+        <div class="wobbles">
+            <div class="wobble first"></div>
+            <div class="wobble second"></div>
+            <div class="wobble third"></div>
+        </div>
+    </section>
+    <section id="sobre">
+        <h1 class="title">Sobre nós</h1>
+        <div class="wrapper">
+            <div class="box">
+                <div class="shadow"></div>
+                <div class="text">
+                    <h1>Pitch: Arqué Digital</h1>
+                    <h3>Assista ao nosso vídeo</h3>
+                </div>
+                <button id="playButton">
+                    <img src="media/play.svg">
+                </button>
+            </div>
+            <div class="desc">
+                <h1><span><i class="fa-sharp fa-solid fa-quote-left"></i></span>Movidos pelo propósito de transformar a
+                    comunidade do Pilar.<span><i class="fa-sharp fa-solid fa-quote-right"></i></span></h1>
+                <p>Essa frase resume o objetivo do nosso projeto, que tem como pilares a formação pessoal e a
+                    capacitação profissional de jovens na tecnologia, na atuação da comunidade e no mercado de trabalho.
+                    Tudo
+                    por meio da educação, com uma proposta de cursos de capacitação em informática e lições de hardware.
+                    A proposta é quebrar as barreiras entre a comunidade e seus sonhos, fazendo com que os objetivos de
+                    vida
+                    e
+                    as expectativas dos adolescentes atendidos sejam valorizados.</p>
+                <div class="planejamento-container">
+                    <a class="planejamento" href="https://drive.google.com/file/d/1TRwpuFTr30s3ozolNUjt1A_Wlj-_kel9/view?usp=sharing" target="_blank">Nosso planejamento</a>
+                </div>
+            </div>
+        </div>
+        <div id="video-container">
+            <div id="clickarea"></div>
+            <video controls autoplay>
+                <source src="media/pitch.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    <section id="comunidade">
+      <div class="wrapper">
+          <div class="desc">
+              <h1>O Pilar</h1>
+              <p>A Comunidade do Pilar tem seu nome proveniente da Igreja de Nossa Senhora do Pilar, construída sobre os alicerces do antigo Forte de São Jorge. A fortificação existia naquela área hoje ocupada pela comunidade. O Pilar resistiu rodeada de galpões e grandes prédios ao longo do tempo, e hoje se encontra cercada pelo maior pólo tecnológico do Brasil.</p>
+          </div>
+          <div class="images">
+              <img src="media/pilar/1.jpg">
+              <img src="media/pilar/2.jpg">
+              <img src="media/pilar/3.jpg">
+              <img src="media/pilar/4.jpg">
+              <img src="media/pilar/5.jpg">
+              <img src="media/pilar/6.jpg">
+          </div>
+      </div>
+    </section>
+    <section id="equipe">
+        <h1 class="texto">Equipe</h1>
+        <img class="todos" src="media/equipe/Todos.jpg">
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="media/equipe/Ana.jpeg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Ana Leticia Serapião</h2>
+                            <p class="description">Diretoria de Marketing</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="media/equipe/Bia.jpeg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Beatriz Aylina</h2>
+                            <p class="description">Gestão de Equipe</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="media/equipe/Clara.jpeg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Maria Clara</h2>
+                            <p class="description">Diretoria de Projeto</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="media/equipe/Elzafan.jpeg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Elzafan Rodrigues</h2>
+                            <p class="description">Produção Audiovisual</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="media/equipe/Gabriela.jpeg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Gabriela Rosa</h2>
+                            <p class="description">Relações Públicas</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="media/equipe/Gryghor.jpeg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Gryghor Camonni</h2>
+                            <p class="description">Produções Técnicas</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="media/equipe/Italo.jpeg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Italo Pontual</h2>
+                            <p class="description">Desenvolvimento</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="media/equipe/Matheus.jpeg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Matheus Vinnycius</h2>
+                            <p class="description">Desenvolvimento</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="media/equipe/Pedro.jpeg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Pedro Henrique</h2>
+                            <p class="description">Desenvolvimento</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="media/equipe/Theo.jpeg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Thayná Kelly</h2>
+                            <p class="description">Desenvolvimento</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <div class="divider">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M1200 0L0 0 892.25 114.72 1200 0z" class="shape-fill"></path>
+        </svg>
+    </div>
+    <footer>
+        <p>Feito com <span>&#x2764;</span> pela Equipe Arqué Digital.</p>
+        <div class="media">
+            <a href="https://instagram.com/projetoarquedigital" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+    </div>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
